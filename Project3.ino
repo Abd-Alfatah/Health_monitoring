@@ -1,3 +1,8 @@
+/*IOT project:: */
+/*Author:: Abd-Alfatah Alodainy*/
+/*E-mail:: ua3agw@stud.uni-obuda.hu*/
+/* This program is used to Run an Arduino based device in which 3  sensors are connected to a  microcontroller
+to measure the different human physiological states (HR, TEMP, HUMIDITY, O2 level and support the ECG function) */
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
 

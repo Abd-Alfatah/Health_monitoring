@@ -137,27 +137,10 @@ void connect_to_Wifi() {
       
     }
 }
-// Your WiFi credentials.
-// Set password to "" for open networks.
-/*const char* ssid = "Vodafone-OB3A";
-const char* password = "3eMbE33rRNhbRguH";*/
-/*void initWiFi() {
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, password);
-  Serial.print("Connecting to WiFi ..");
-  while (WiFi.status() != WL_CONNECTED) {
-    Serial.print('.');
-    delay(1000);
-  }
-  Serial.println(WiFi.localIP());
-}*/
+
 void Sending_new_readings(){
 
 // Send new readings to database
-//Blynk.connected()  && (millis() - sendDataPrevMillis > timerDelay || sendDataPrevMillis == 0)
-  //if (){
-    //sendDataPrevMillis = millis();
-
     //Get current timestamp
     //timestamp = getTime();
     /*Serial.print ("time: ");
@@ -252,5 +235,5 @@ void Task2code( void * pvParameters ){
 
 void loop()
 {
-///
+///Since we used a multi tasking method this sould be empty
 }
